@@ -200,7 +200,18 @@ tbody tr td {
 	color: #27A9B9;
 }
 
-
+.navbar .navmenu .paypal {
+	border-right-color: #00457C;
+}
+.navmenu .paypal a {
+	color: #00457C;
+}
+.navbar .navmenu .kofi {
+	border-right-color: #FF5E5B;
+}
+.navmenu .kofi a {
+	color: #FF5E5B;
+}
 
 .navmenu .discord p.new-label span{
   position: relative;
@@ -251,3 +262,26 @@ tbody tr td {
 }
 .navmenu .telegram:hover a p.new-label:after{
   content: 'rj_shifty';
+}
+
+.navmenu .paypal a p.new-label span{
+  position: relative;
+  content: 'paypal'
+}
+.navmenu .paypal:hover a p.new-label span{
+  display: none;
+}
+.navmenu .paypal:hover a p.new-label:after{
+  content: 'donate';
+}
+
+.navmenu .kofi a p.new-label span{
+  position: relative;
+  content: 'kofi'
+}
+.navmenu .kofi:hover a p.new-label span{
+  display: none;
+}
+.navmenu .kofi:hover a p.new-label:after{
+  content: 'donate';
+}

@@ -200,7 +200,18 @@ tbody tr td {
 	color: #27A9B9;
 }
 
-
+.navbar .navmenu .paypal {
+	border-right-color: #00457C;
+}
+.navmenu .paypal a {
+	color: #00457C;
+}
+.navbar .navmenu .kofi {
+	border-right-color: #FF5E5B;
+}
+.navmenu .kofi a {
+	color: #FF5E5B;
+}
 
 .navmenu .discord p.new-label span{
   position: relative;
@@ -234,20 +245,13 @@ tbody tr td {
 .navmenu .bandcamp:hover a p.new-label:after{
   content: 'sylvarn';
 }
-.navbar .navmenu .telegram {
-	border-right-color: #0088cc;
-	color: #0088cc;
-}
-.navmenu .telegram a {
-	color: #0088cc;
-}
-
-.navmenu .telegram a p.new-label span{
+.navmenu .paypal a p.new-label span{
   position: relative;
-  content: 'telegram'
+  content: 'paypal'
 }
-.navmenu .telegram:hover a p.new-label span{
+.navmenu .paypal:hover a p.new-label span{
   display: none;
 }
-.navmenu .telegram:hover a p.new-label:after{
-  content: 'rj_shifty';
+.navmenu .paypal:hover a p.new-label:after{
+  content: 'donate';
+}
