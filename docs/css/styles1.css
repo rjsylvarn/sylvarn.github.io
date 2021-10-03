@@ -36,6 +36,14 @@ body {
 	box-sizing: border-box;
 	margin-top: 0px;
 }
+.stuff1 h2 {
+	color: rgba(235,164,255,1.00);
+	font-size: 20px;
+	padding-left: 30px;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
 .stuff1 h1 {
 	color: rgba(235,164,255,1.00);
 	font-size: 20px;
@@ -213,7 +221,7 @@ tbody tr td {
   display: none;
 }
 .navmenu .twitter:hover a p.new-label:after{
-  content: '@sylvrj';
+  content: '@furshifty';
 }
 
 .navmenu .bandcamp a p.new-label span{
@@ -226,3 +234,20 @@ tbody tr td {
 .navmenu .bandcamp:hover a p.new-label:after{
   content: 'sylvarn';
 }
+.navbar .navmenu .telegram {
+	border-right-color: #0088cc;
+	color: #0088cc;
+}
+.navmenu .telegram a {
+	color: #0088cc;
+}
+
+.navmenu .telegram a p.new-label span{
+  position: relative;
+  content: 'telegram'
+}
+.navmenu .telegram:hover a p.new-label span{
+  display: none;
+}
+.navmenu .telegram:hover a p.new-label:after{
+  content: 'rj_shifty';
