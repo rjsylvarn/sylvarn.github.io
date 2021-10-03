@@ -99,14 +99,14 @@ body {
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
 	display: compact;
-	text-align: center;
+	text-align: right;
 	padding-top: 0px;
-	padding-right: 0px;
+	padding-right: 10px;
 	padding-bottom: 0px;
 	color: rgba(156,55,224,1.00);
 	border-right-width: medium;
 	border-right-style: dotted;
-	margin-right: auto;
+	margin-right: 10px;
 	margin-left: auto;
 	max-width: 85%;
 }
@@ -232,7 +232,7 @@ tbody tr td {
   display: none;
 }
 .navmenu .twitter:hover a p.new-label:after{
-  content: '@furshifty';
+  content: '@sylvrj';
 }
 
 .navmenu .bandcamp a p.new-label span{
