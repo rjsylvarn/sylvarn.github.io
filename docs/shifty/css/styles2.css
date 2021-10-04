@@ -183,8 +183,8 @@ tbody tr td {
 	margin-bottom: -40px;
 }
 .navbar .navmenu .discord {
-	border-right-color: #7289da;
-	color: #7289da;
+	border-right-color: #5865F2 ;
+	color: #5865F2 ;
 }
 .navbar .navmenu .twitter {
 	/* [disabled]border-right-color: #55acee; */
@@ -194,10 +194,10 @@ tbody tr td {
 	color: #55acee;
 }
 .navbar .navmenu .bandcamp {
-	border-right-color: #27A9B9;
+	border-right-color: #cccccc;
 }
 .navmenu .bandcamp a {
-	color: #27A9B9;
+	color: #cccccc;
 }
 
 .navbar .navmenu .paypal {
@@ -284,4 +284,20 @@ tbody tr td {
 }
 .navmenu .kofi:hover a p.new-label:after{
   content: 'donate';
+}
+.navbar .navmenu .furaffinity {
+	border-right-color: #FAAF3A;
+}
+.navmenu .furaffinity a {
+	color: #FAAF3A;
+}
+.navmenu .furaffinity a p.new-label span{
+  position: relative;
+  content: 'furaffinity'
+}
+.navmenu .furaffinity:hover a p.new-label span{
+  display: none;
+}
+.navmenu .furaffinity:hover a p.new-label:after{
+  content: '~rjshifty';
 }

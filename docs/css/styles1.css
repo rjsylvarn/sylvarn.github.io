@@ -183,8 +183,8 @@ tbody tr td {
 	margin-bottom: -40px;
 }
 .navbar .navmenu .discord {
-	border-right-color: #7289da;
-	color: #7289da;
+	border-right-color: #5865F2 ;
+	color: #5865F2 ;
 }
 .navbar .navmenu .twitter {
 	/* [disabled]border-right-color: #55acee; */
@@ -194,12 +194,11 @@ tbody tr td {
 	color: #55acee;
 }
 .navbar .navmenu .bandcamp {
-	border-right-color: #27A9B9;
+	border-right-color: #cccccc;
 }
 .navmenu .bandcamp a {
-	color: #27A9B9;
+	color: #cccccc;
 }
-
 .navbar .navmenu .paypal {
 	border-right-color: #00457C;
 }
