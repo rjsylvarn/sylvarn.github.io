@@ -150,6 +150,8 @@ body {
 .navbar h2 a {
 	color: rgba(255,95,0,1.00);
 	text-decoration: none;
+	margin-bottom: 23px;
+	padding-bottom: 6px;
 }
 .stuff1 p a {
 	color: rgba(255,87,0,1.00);
