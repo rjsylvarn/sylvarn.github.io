@@ -220,7 +220,7 @@ tbody tr td {
   display: none;
 }
 .navmenu .discord:hover p.new-label:after{
-  content: 'rj#7000';
+  content: 'ft.rj';
 }
 
 .navmenu .twitter a p.new-label span{
@@ -231,7 +231,7 @@ tbody tr td {
   display: none;
 }
 .navmenu .twitter:hover a p.new-label:after{
-  content: '@sylvrj';
+  content: '@ft__rj';
 }
 
 .navmenu .bandcamp a p.new-label span{
@@ -242,7 +242,7 @@ tbody tr td {
   display: none;
 }
 .navmenu .bandcamp:hover a p.new-label:after{
-  content: 'sylvarn';
+  content: 'ft-rj';
 }
 .navmenu .paypal a p.new-label span{
   position: relative;
