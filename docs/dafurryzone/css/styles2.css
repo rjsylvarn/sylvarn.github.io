@@ -261,7 +261,7 @@ tbody tr td {
   display: none;
 }
 .navmenu .telegram:hover a p.new-label:after{
-  content: 'rj_shifty';
+  content: 'shift_rj';
 }
 .navbar .navmenu .bsky {
 	border-right-color: #0088cc;
