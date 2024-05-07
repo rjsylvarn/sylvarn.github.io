@@ -263,7 +263,24 @@ tbody tr td {
 .navmenu .telegram:hover a p.new-label:after{
   content: 'rj_shifty';
 }
+.navbar .navmenu .bsky {
+	border-right-color: #0088cc;
+	color: #0088cc;
+}
+.navmenu .bsky a {
+	color: #0088cc;
+}
 
+.navmenu .bsky a p.new-label span{
+  position: relative;
+  content: 'bsky'
+}
+.navmenu .bsky:hover a p.new-label span{
+  display: none;
+}
+.navmenu .bsky:hover a p.new-label:after{
+  content: 'shi.ftrj.net';
+}
 .navmenu .paypal a p.new-label span{
   position: relative;
   content: 'paypal'
